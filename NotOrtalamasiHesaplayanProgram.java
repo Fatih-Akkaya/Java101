@@ -28,6 +28,6 @@ public class Main
     double ortalama =
       (matematik + fizik + kimya + turkce + tarih + muzik) / 6;
       System.out.println ("Ortalamanız : " + ortalama);
-      System.out.println (ortalama > 60 ? "Geçtiniz" : "Kaldınız");
+      System.out.println (ortalama > 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı");
   }
 }
